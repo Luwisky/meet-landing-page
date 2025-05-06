@@ -5,18 +5,12 @@
 }
 
 body{
-    background-color: lightblue; 
     font-family: 'Inter', 'Poppins', sans-serif;
 }
 
     .container{
-    margin: 100px auto;
-    width: 2000px;
-    height: 2000px;
     background-color: #fff;
     }
-
-
 
 .meet{
     display: flex;
@@ -29,7 +23,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin: 20px auto 100px;
+    /* margin: 20px auto 100px; */
     width: auto;
     height: auto;
 
@@ -214,14 +208,13 @@ button.one{
   /* Mobile View */
 @media (max-width: 768px) {
   .container {
-    width: 300px;
     height: auto;
   
   }
 
   .meet {
     flex-direction: column;
-    padding: 20px 0;
+    padding: 30px 0;
     margin-bottom: 20px;
   }
 
@@ -231,28 +224,32 @@ button.one{
   }
 
   .mobile-img {
-    max-width: 300px;
     height: auto; 
     display: block;
   }
 
   .middle h1 {
-    width: 90%;
+    width: 55%;
     font-size: 32px;
     text-align: center;
   }
 
   .middle p {
-    width: 90%;
+    width: 65%;
     font-size: 14px;
   }
 
   button {
     background-color: #9370DB;
-    margin: 10px;
+    /* margin: 10px ; */
     padding: 10px 30px;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .tw{
+   margin: 15px;
   }
 
   .part {
@@ -279,7 +276,7 @@ button.one{
 
   .note p {
     width: 90%;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .foot {
@@ -289,6 +286,7 @@ button.one{
     padding: 40px 0;
     margin-top: 50px;
     text-align: center;
+    /* margin-top: 100px; */
     
   }
 
@@ -310,11 +308,12 @@ button.one{
   .number{
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 .vertical-line{
   width: 2px;   
-  height: 100px; 
+  height: 50px; 
   background-color: lightgray; 
 }
 
